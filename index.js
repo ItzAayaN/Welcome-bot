@@ -2,6 +2,7 @@ const Discord = require("discord.js")
 require("dotenv").config()
 
 const generateImage = require("./generateImage")
+require("status.js")
 
 const client = new Discord.Client({
     intents: [
